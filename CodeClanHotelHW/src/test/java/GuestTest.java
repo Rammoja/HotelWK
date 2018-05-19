@@ -7,16 +7,17 @@ import static org.junit.Assert.assertEquals;
 public class GuestTest {
 
 
-    Guest guest;
+    Guest guest1;
 
     @Before
     public void before() {
-        guest = new Guest("David");
+        guest1 = new Guest("David");
+
     }
 
     @Test
     public void canGetName(){
-        assertEquals("David", guest.getName());
+        assertEquals("David", guest1.getName());
     }
 
 }
